@@ -1,4 +1,2 @@
-const sqlite = require("sqlite3")
-const postgrece = require("pg")
-
-console.log("200")
+const nan = require("./id");
+console.log("new ID : ",nan());
